@@ -118,7 +118,7 @@ const Home = () => {
   
       try {
         const response = await fetch(
-          "http://localhost:8080/posts",
+          "https://dall-e-community-server.onrender.com/posts",
           {
             method: "GET",
             headers: {
